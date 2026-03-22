@@ -79,7 +79,7 @@ const SummaryCards = ({ totalExpenses, monthlyBudget, remainingBalance, onUpdate
           </div>
         </div>
         <p className="text-secondary" style={{ fontSize: '0.75rem' }}>
-          For November 2023
+          For {new Date().toLocaleString('default', { month: 'long', year: 'numeric' })}
         </p>
       </div>
 
